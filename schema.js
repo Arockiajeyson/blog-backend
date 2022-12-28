@@ -6,5 +6,7 @@ const models = new Schema({
     Title:{type:String},
     Description:{type:String}
 })
+
 const info =mongoose.model('Mblog',models)
+
 module.exports=info
